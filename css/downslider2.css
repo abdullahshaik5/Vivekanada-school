@@ -1,0 +1,35 @@
+﻿
+
+.slider ul li {
+    list-style-type:none;
+    float:left;
+    width:25%;
+}
+.slider ul:hover li {
+    width:10%;
+}
+.slider ul:hover li figure {
+    position:relative;
+}
+.slider ul:hover li figure figcaption {
+    position:absolute;
+    top:30%;
+    right:0;
+    display:none;
+}
+.slider ul li:hover {
+    width:70%;
+}
+.slider ul li:hover figure figcaption {
+    display:block;
+}
+.slider ul,
+ul:hover,
+ul li,
+ulul,
+ul:hover,
+ul li,
+ul li:hover {
+    transition:all ease-out 0.3s;
+}
+
